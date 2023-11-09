@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31112.23
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorFormsValidation.Server", "BlazorFormsValidation\Server\BlazorFormsValidation.Server.csproj", "{139A3D4A-EE78-4222-AE62-64859663F072}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorFormsValidation.Server", "Server\BlazorFormsValidation.Server.csproj", "{A54C587C-6475-4324-9C10-E513873EEE8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorFormsValidation.Client", "BlazorFormsValidation\Client\BlazorFormsValidation.Client.csproj", "{F695FB03-9045-4FED-BCBF-6C3F8F1F4B06}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorFormsValidation.Client", "Client\BlazorFormsValidation.Client.csproj", "{3CA3A1A8-59C7-4DB9-97E8-978139100BB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorFormsValidation.Shared", "BlazorFormsValidation\Shared\BlazorFormsValidation.Shared.csproj", "{65C036FB-59B7-4FFA-991C-D63649A270E3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorFormsValidation.Shared", "Shared\BlazorFormsValidation.Shared.csproj", "{BA570463-39B9-4777-A5FD-AA3C47D03CFF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,23 +15,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{139A3D4A-EE78-4222-AE62-64859663F072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{139A3D4A-EE78-4222-AE62-64859663F072}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{139A3D4A-EE78-4222-AE62-64859663F072}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{139A3D4A-EE78-4222-AE62-64859663F072}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F695FB03-9045-4FED-BCBF-6C3F8F1F4B06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F695FB03-9045-4FED-BCBF-6C3F8F1F4B06}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F695FB03-9045-4FED-BCBF-6C3F8F1F4B06}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F695FB03-9045-4FED-BCBF-6C3F8F1F4B06}.Release|Any CPU.Build.0 = Release|Any CPU
-		{65C036FB-59B7-4FFA-991C-D63649A270E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{65C036FB-59B7-4FFA-991C-D63649A270E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{65C036FB-59B7-4FFA-991C-D63649A270E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{65C036FB-59B7-4FFA-991C-D63649A270E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A54C587C-6475-4324-9C10-E513873EEE8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A54C587C-6475-4324-9C10-E513873EEE8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A54C587C-6475-4324-9C10-E513873EEE8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A54C587C-6475-4324-9C10-E513873EEE8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CA3A1A8-59C7-4DB9-97E8-978139100BB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CA3A1A8-59C7-4DB9-97E8-978139100BB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CA3A1A8-59C7-4DB9-97E8-978139100BB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CA3A1A8-59C7-4DB9-97E8-978139100BB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA570463-39B9-4777-A5FD-AA3C47D03CFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA570463-39B9-4777-A5FD-AA3C47D03CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA570463-39B9-4777-A5FD-AA3C47D03CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA570463-39B9-4777-A5FD-AA3C47D03CFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {A46F034D-3A4C-4525-8654-2040CCCB6781}
+		SolutionGuid = {F893996B-07EB-4D8D-8B5F-CB5F4AE0FA95}
 	EndGlobalSection
 EndGlobal
